@@ -46,7 +46,6 @@ cur.execute('INSERT INTO books (title, author, pages_num, review)'
              'A great epic')
             )
 
-
 conn.commit()
 
 cur.close()
